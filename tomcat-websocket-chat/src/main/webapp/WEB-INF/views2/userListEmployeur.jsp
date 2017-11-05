@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Accès Employeur</title>
+	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet"></link>
+	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
+	<link href="<c:url value='/static/css/w3.css' />" rel="stylesheet"></link>
+    <link href="<c:url value='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />" rel="stylesheet"></link>
+	<link rel="stylesheet" href="/static/css/demo.css">
+</head>
+
+<body id='bodybody' >
+ <%@include file="/WEB-INF/views/header.jsp" %>
+<script type="text/javascript" src="<c:url value="/static/js/w3.js" />" ></script>
+<script type="text/javascript" src="<c:url value="/static/js/jsex.js" />" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<div class="generic-container">
+		<div  class=" panel panel-default">
+		<div class="panel-heading well"><center><span class="lead"><h1><b>Accès Employeur</b></h1> </span></center></div>
+			  <!-- Default panel contents -->
+		  	<div class="panel-heading"><span class="lead"><b>Liste des salariés </b></span></div>
+		  	<div  id="collapse1" class="tablecontainer">
+		  	<br>
+		  	   <input type="text" id="myInput" onkeyup="myFunction()" placeholder="  Recherche par nom.." title="Type in a name">
+       
+				<table  id="myTable" class="table-responsive" >
+		    		<thead>
+			      		<tr >
+					       
+					        <th>Nom</th>
+					         <th>Prenom</th>
+					        <th>Login</th>
+					        <th>Password</th>
+					         <th>Entreprise</th>
+					        
+					        <th width="100"></th>
+					        
+						</tr>
+			    	</thead>
+		    		<tbody>
+					<c:forEach items="${users}" var="user">
+						<tr>
+							<td>${user.lastName}</td>
+							<td>${user.firstName}</td>
+							<td>${user.login}</td>
+							<td>${user.password}</td>
+							<td >${user.entreprise}</td>
+							
+			<!-- 				<td><a href="<c:url value='/edit-user-${user.login}' />" class="btn btn-success custom-width"><img src="<c:url value="/static/images/icons8-Edit.png"/>"
+            title="Modifier un utilisateur" width="20" height="20"/></a></td>
+							<td><a href="<c:url value='/delete-user-${user.login}' />" class="btn btn-danger custom-width"><img src="<c:url value=
+            "/static/images/icons8-Trash Can.png"/>" title="Supprimer un utilisateur" width="20" height="20"/></a></td>
+							<td><a href="<c:url value='/add-document-${user.login}' />" class="btn btn-successs custom-width"><img src="<c:url value=
+            "/static/images/up.png"/>" title="Charger un fichier" width="20" height="20"/></a></td>
+			-->
+							<td><a href="<c:url value='/listdocumentEmpl-${user.login}-2017' />" class="btn btn-successs custom-width"><img src="<c:url value=
+            "/static/images/documents(1).png"/>" title="La liste des documents" width="20" height="20"/>  Documents</a></td>
+							 
+						</tr>
+					</c:forEach>
+		    		</tbody>
+		    	</table>
+		    </div>
+		</div>
+	 	<%-- <div class="welll" >
+	 		<a href="<c:url value='/newuser' />" class="btn btn-success custom-width"><img src="<c:url value="/static/images/man(1).png"/>" title="Ajouter un employé" width="18" height="18"/>  Ajouter</a>
+	 	</div> --%>
+   	</div>
+   	<%@include file="/WEB-INF/views/footer.jsp" %>
+</body>
+</html>

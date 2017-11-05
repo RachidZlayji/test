@@ -1,0 +1,193 @@
+	  
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url("../images/find (2).png");
+  background-position: 2px 10px;
+  background-repeat: no-repeat;
+  background-border: 1px;
+  width: 20%;
+ 
+  font-size: 12px;
+  padding: 12px 30px 20px 38px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  
+}
+
+.red-star {
+    color: red;
+}
+#bodybody{
+	background-image: url("../images/Soft-Purple-Glow-Gradient.jpg");
+}
+#myInput1 {
+  background-image: url("../images/find (2).png");
+  background-position: 2px 10px;
+  background-repeat: no-repeat;
+  background-border: 1px;
+  width: 20%;
+ 
+  font-size: 12px;
+  padding: 12px 30px 20px 38px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  
+}
+#myInput11 {
+  background-image: url("../images/find (2).png");
+  background-position: 2px 10px;
+  background-repeat: no-repeat;
+  background-border: 1px;
+  width: 20%;
+ 
+  font-size: 12px;
+  padding: 12px 30px 20px 38px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  
+}
+#myInput5 {
+  background-image: url("../images/find (2).png");
+  background-position: 2px 10px;
+  background-repeat: no-repeat;
+  background-border: 1px;
+  width: 20%;
+ 
+  font-size: 12px;
+  padding: 12px 30px 20px 38px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  
+}
+
+#collapse1{
+overflow-y:scroll;
+overflow-x:scroll;
+height:290px;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+#myTable11 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable5 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+#myTable5 th, #myTable5 td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+border-bottom: 2px solid #ddd;
+  font-size: 16px;
+}
+#myTable1 tr {
+  border-bottom: 2px solid #ddd;
+  font-size: 18px;
+}
+#myTable11 tr {
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+}
+#myTable5 tr {
+  border-bottom: 2px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+/*By DjelalEddine@gmail.com*/
+#user .avatar {
+    width:60px;
+	}
+#user .avatar > img{
+	width:50px;
+	height:50px;
+	border-radius:10%;
+	}
+/*Card*/
+#user .panel-thumb{
+margin:5px auto;
+text-align:center;	
+	}
+#user .panel-thumb .avatar-card {
+text-align:center;
+height:200px;
+margin:auto;
+overflow:hidden;
+}	
+#user .panel-thumb .avatar-card > img{
+	max-width:200px;
+	max-height:200px;
+	}
+
+/* table*/
+#user .panel-table{
+  animation-duration:3s;
+}
+
+#user .panel-table .panel-body .table{
+  margin:0px;
+}
+#user .panel-table .panel-body {
+  padding:0px;
+}
+#user .panel-table .panel-body .table-bordered > thead > tr > th{
+  text-align:center;
+}
+#user .panel-table .panel-footer {
+  height:60px;
+  padding:0px;
+}

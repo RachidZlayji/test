@@ -1,0 +1,93 @@
+body, #mainWrapper {
+	height: 100%;
+	background-color:rgb(189,119,179);
+}
+
+body, .form-control{
+	font-size:12px!important;
+}
+#collapse1{
+overflow-y:scroll;
+overflow-x:scroll;
+height:270px;
+}
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.uploadcontainer{
+	background-color: bisque;
+	padding: 20px;
+}
+
+.tablecontainer{
+	padding-left: 20px;
+}
+
+.generic-container {
+  width:90%;
+  height:100%;
+  margin-right:60px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-image: url("../images/3336-grey-texture-1920x1080-abstract-wallpaper.gif");  border: 2px solid #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 40px #000000;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+.generic-containerr {
+  width:85%;
+  height:60%;
+  margin-left: 100px;
+  margin-top: 90px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #be42cc;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-shadow: 0 0 40px black;
+}
+
+.custom-width {
+    width: 115px ;
+    height:35px;
+   
+}
+.custom-widthh {
+    width: 90px ;
+    height:70px;
+   
+}
+.custom-width1 {
+    width: 108px ;
+    height:33px;
+   
+}
+.custom-bulletin {
+    width: 28px ;
+    height:25px;
+   
+}
+
+#image-button1{
+    background: url('/../images/up.png') _no-repeat top left;
+    padding-left: 30px;
+    height: 30px;
+}
