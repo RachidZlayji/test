@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-		<link rel="icon" href="/static/images/expehris.ico"/>
+		<link rel="icon" href="/static/images/expehrislogo.ico"/>
 	
 	<title></title>
 	        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -32,8 +32,8 @@
 				<ul style="float:left " class="nav navbar-nav">
 									
 				
-					<li style="float:left"><a href="<c:url value='/listEmployees' />"><i class="fa fa-file-text" aria-hidden="true"></i><b> Liste des salariés</b> </a></li>
-					<li style="float:left"><a href="<c:url value='/listbulletins-${searchedyear}' />"><i class="fa fa-file-text" aria-hidden="true" ></i><b> Liste des bulletins de paie</b> </a></li>
+					<li style="float:left"><a href="<c:url value='/listEmployees' />"><i class="fa fa-file-text" aria-hidden="true"></i> Liste des salariés </a></li>
+					<li style="float:left"><a href="<c:url value='/listbulletins-${searchedyear}' />"><i class="fa fa-file-text" aria-hidden="true" ></i> Liste des bulletins de paie </a></li>
 					
 					<!--    <div style="float:right" class="navbar-header"> 
 		      <a class="navbar-brand" >   

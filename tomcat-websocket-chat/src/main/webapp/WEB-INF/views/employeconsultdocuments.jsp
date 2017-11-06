@@ -6,7 +6,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="icon" href="/static/images/expehris.ico"/>
+		<link rel="icon" href="/static/images/expehrislogo.ico"/>
 	
 	<title>Consulter Documents</title>
 	<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 
@@ -81,13 +81,13 @@
 	</div>
 		
 	<div class="generic-container">
-		<div class="panel panel-primary">
+		<div class="panel panel-default">
 			  <!-- Default panel contents -->
 		  	<div class="panel-heading"><span class="lead">Liste des Documents </span></div>
 		  	<div id="collapse1"  class="tablecontainer">
 		  	<br>
 		  	   <input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="  Recherche par nom.." title="Type in a name">
-				<table id="myTable1"  class="table table-hover table-striped">
+				<table id="myTable1"  class="table table-hover">
 		    		<thead>
 			      		<tr style=" background-color: rgba(0, 185, 255, 0.3)">
 					        <!-- <th>No.</th> -->

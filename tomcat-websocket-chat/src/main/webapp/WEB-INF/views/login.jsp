@@ -4,7 +4,7 @@
         <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
         <html >
         <head>
-        	<meta charset="utf-8">
+        	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,14 +12,14 @@
 
     <link rel="stylesheet" href="/static/css/demo.css">
         	
-             <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
              <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 			<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
 			<link href="<c:url value='/static/css/w3.css' />" rel="stylesheet"></link>	
     		<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 
     		
 			<link href="<c:url value='/static/css/css1.css' />" rel="stylesheet"></link>
-         	<link rel="icon" href="/static/images/expehris.ico"/>
+         	<link rel="icon" href="/static/images/expehrislogo.ico"/>
             
             <title>Login</title>
         </head>
@@ -59,7 +59,7 @@
    </div>
   
 </form:form>
-
+<div class="copy-text"> © 2017, <a href="http://expehris.com">  Expehris</a></div>
            
 	</div>
 		<div class="col-md-8 banner-sec">

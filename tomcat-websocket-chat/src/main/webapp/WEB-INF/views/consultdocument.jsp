@@ -6,7 +6,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="icon" href="/static/images/expehris.ico"/>
+		<link rel="icon" href="/static/images/expehrislogo.ico"/>
 	
 	<title>Consulter Documents</title>
 	<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 
@@ -68,7 +68,7 @@
 							<td>${doc.dateCreation}</td>
 							<td style="text-align: center;">
 								<c:if test="${doc.id >0}">
-										<a href="<c:url value='/download-document-${user.login}-${doc.id}' />" class="btn btn-success custom-width1"><img src="<c:url value="/static/images/download (3).png"/>" title="Télécharger le fichier" width="18" height="18"/>  Télécharger</a>	
+										<a href="<c:url value='/download-document-${user.login}-${doc.id}' />" class="btn btn-sm btn-success"><img src="<c:url value="/static/images/download (3).png"/>" title="Télécharger le fichier" width="18" height="18"/>  Télécharger</a>	
 								</c:if>
 								<c:if test="${doc.id == 0}">
 										<img src="<c:url value="/static/images/file.png"/>" title="le fichier n'existe pas !" width="20" height="18"/>  
@@ -83,13 +83,13 @@
 	</div>
 		
 	<div class="generic-container">
-		<div class="panel panel-primary">
+		<div class="panel panel-default">
 			  <!-- Default panel contents -->
 		  	<div class="panel-heading"><span class="lead"><b>Liste des Documents</b> </span></div>
 		  	<div id="collapse1"  class="tablecontainer">
 		  	<br>
 		  	   <input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="  Recherche par nom.." title="Type in a name">
-				<table id="myTable1"  class="table table-hover table-striped">
+				<table id="myTable1"  class="table table-hover">
 		    		<thead>
 			      		<tr style=" background-color: rgba(0, 185, 255, 0.3)">
 					        <!-- <th>No.</th> -->

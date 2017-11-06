@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="icon" href="/static/images/expehris.ico"/>
+	<link rel="icon" href="/static/images/expehrislogo.ico"/>
 	
 	<title>Registration Confirmation Page</title>
 	<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 

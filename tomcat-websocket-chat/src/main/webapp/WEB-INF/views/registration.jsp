@@ -6,10 +6,10 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="icon" href="/static/images/expehris.ico"/>
+		<link rel="icon" href="/static/images/expehrislogo.ico"/>
 	
 	<title>Formulaire d'inscription des utilisateurs</title>
-	<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 
+		<link rel='stylesheet' href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'> 
 	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
 	<link href="<c:url value='/static/css/w3.css' />" rel="stylesheet"></link>
 </head>

@@ -3,10 +3,10 @@
 <html>
 
 <head>
-   	<link rel="icon" href="/static/images/expehris.ico"/>
+   	<link rel="icon" href="/static/images/expehrislogo.ico"/>
    
     <title>Footer with Button and Logo</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
